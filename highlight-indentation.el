@@ -86,7 +86,7 @@ on spaces"
 
 ;;;###autoload
 (defun highlight-indentation-set-offset (offset)
-  "Set indentation offset localy in buffer, will prevent
+  "Set indentation offset locally in buffer, will prevent
 highlight-indentation from trying to guess indentation offset
 from major mode"
   (interactive
@@ -118,7 +118,7 @@ from major mode"
 ;;;###autoload
 (define-minor-mode
   highlight-indentation-current-column-mode
-  "Hilight Indentation minor mode displays
+  "Highlight Indentation minor mode displays
 a vertical bar corresponding to the indentation of the current line"
   :lighter " |"
 
